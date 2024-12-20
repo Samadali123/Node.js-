@@ -1,0 +1,78 @@
+// Installation
+// Npm 
+// Node js project setup using npm init
+// synchronous and Asyncronous Tasks
+// Modules,Dependencies,and Packages
+// creating custom Modules
+// Exploring file systems
+// web servers
+// pros and cons of Node.js
+
+
+
+
+// Node.js is a runtime environment for javaScirpt so that javaScirpt can runs on a systens ,buit,using Google chrome engine code which is written in c+++ becoz js itself does not capable to build servers
+
+// npm init : command for making a node js project      
+// Package.json file : info about the project and Dependencies of the project
+// Package-lock.json : info about partcilar Dependencies of the project
+// node_modules : folder where all the dependencies are stored  
+
+//Npm : Node Package Manager, Node js project creation, project Management, Publishing custom packages.
+
+
+// synchronous and Asyncronous Tasks : 
+// Synchronous : one task at a time, one by one, sequential execution 
+// Asynchronous : multiple tasks at a time, parallel execution, non-blocking execution Asynchronous code goes in a side stack execute after synchronous taks using callback ques and event loop
+
+// callback ques : a ques where all the callback functions are stored and executed one by one
+
+// event loop : a loop that execute all the callback functions in the callback ques one by one
+
+
+//Nodejs : Sync, Async supports both
+
+// Why do we need Parallel execution in js
+// for performing multiple tasks at a time, for improving the performance of the application, for making the application more responsive
+
+
+// Modules, dependencies and packages :
+//  single or multiple file , solves a problem , used in entire project
+// types of Modules:  inbuilt: http, fs and many more
+// user defined Modules : created by user, external Sources, third parrty ,express, nodemon, etc..
+
+
+// Packages :  collection of modules, used in entire project, used for solving a problem, used for a specific task
+
+
+// Dependencies :  for making tea we depends on, milk, sugar, tea powder like this our project depends on multiple things packages that are called as dependencies..
+// types of dependencies
+// 1. devDependencies : used for development purpose, not used in production, used for testing
+// 2. peerDependencies : used for development purpose, used for testing, used for production
+// 3. dependencies : used for production, used for testing, used for development purpose
+// 4. optionalDependencies : used for production, used for testing, used for development purpose
+
+
+//  fs Modules : inbuilt Node.js Module for handling file create, read,apapend, delete and many more.
+
+
+// Web servers :  Process which never Stops
+// which is prgrammed and make able to handle req and send resposne to the client
+// Server Ensure  application is up and running all the time
+
+
+// Http Module : inbuilt Node.js Module for creating a web servers
+
+// ports : like a gate from whcih we enters on a Servers.
+
+
+// Pros and Cons Of Node.js
+
+ // Pros :  Asynchronous execution., fast, Scalable
+ // applications : Data Streaming, RestAPi servers, Iot applications, wen apps.
+
+ //Cons 
+ //  Single threaded so cannot much computations heavy..
+
+
+ 
